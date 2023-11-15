@@ -95,6 +95,6 @@ class ExampleTest extends TestCase
         $response->assertViewHas('categories', function($categories) {
             return $categories->count() === 3;
         });
-        $response->assertSee('Categoria 099900');
+        $response->assertSee('Categoria 500');
     }
 }
